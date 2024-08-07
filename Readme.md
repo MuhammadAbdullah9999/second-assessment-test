@@ -15,50 +15,51 @@ Before you begin, ensure you have the following installed on your machine:
 
 ### Frontend
 
-1. Navigate to the `frontend` directory:
-   ```bash
+### Navigate to the `frontend` directory:
+   ```
    cd frontend
    ```
-Install the dependencies:
+### Install the dependencies:
 
-bash
-```
-npm install```
-Start the frontend development server:
 
-bash
 ```
-npm start ```
+npm install
+```
+### Start the frontend development server:
+
+```
+npm start
+ ```
 The frontend should now be running at http://localhost:3000.
 
-Backend
-Navigate to the backend directory:
+## Backend
+### Navigate to the backend directory:
 
-bash
 ```
-cd backend```
-Install the dependencies:
+cd backend
+```
+### Install the dependencies:
 
-bash
 ```
-npm install```
-Start the backend server:
+npm install
+```
+### Start the backend server:
 
-bash
 ```
-npm run serve```
+npm run serve
+```
 The backend should now be running at http://localhost:5000.
 
-Running the Application with Docker
-To build and run the application using Docker and Docker Compose, follow these steps:
+## Running the Application with Docker
+### To build and run the application using Docker and Docker Compose, follow these steps:
 
-Ensure you are in the root directory of the project (where the docker-compose.yml file is located).
+### Ensure you are in the root directory of the project (where the docker-compose.yml file is located).
 
-Build and start the Docker containers:
+### Build and start the Docker containers:
 
-bash
 ```
-docker-compose up --build```
+docker-compose up --build
+```
 This will build the Docker images for both the frontend and backend, and start the containers.
 
 The frontend should now be accessible at http://localhost:3000, and the backend at http://localhost:5000.
